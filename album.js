@@ -103,7 +103,7 @@ export default class Buy extends React.Component {
                 <View style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: 10 }}>
                     <Image style={{ width: '80%', height: 250 , borderRadius: 18 }} source={{ uri: this.state.img}} />
                 </View>
-                <View style={{ height: 180, margin: 0, paddingLeft: 26, marginTop: 0, justifyContent: 'center', alignItems: 'center', marginRight: 50 }}>
+                <View style={{ height: 100, margin: 0, paddingLeft: 26, marginTop: 0, justifyContent: 'center', alignItems: 'center', marginRight: 50 }}>
                     <Text style={{ fontSize: 20 }}>{this.state.singer}</Text>
                 </View>
                 {/* optin-monster */}
@@ -131,7 +131,7 @@ export default class Buy extends React.Component {
                         <TouchableHighlight underlayColor="none" activeOpacity={0.1}
                             onPress={this.last}>
                             {/* name="control-play" */}
-                            <SimpleLineIcons style={{ marginBottom: 10, marginRight: 15 }}
+                            <SimpleLineIcons style={{ marginBottom: 100, marginRight: 15 }}
                                 name='control-start'
                                 size={this.state.size} color="black" />
                         </TouchableHighlight>
@@ -139,7 +139,7 @@ export default class Buy extends React.Component {
                         <TouchableHighlight underlayColor="none" activeOpacity={0.1}
                             onPress={this.stop}>
                             {/* name="control-play" */}
-                            <SimpleLineIcons style={{ marginBottom: 10, marginRight: 15 }}
+                            <SimpleLineIcons style={{ marginBottom: 100, marginRight: 15 }}
                                 name={this.state.name}
                                 size={this.state.size} color="black" />
                         </TouchableHighlight>
@@ -147,7 +147,7 @@ export default class Buy extends React.Component {
                         <TouchableHighlight underlayColor="none" activeOpacity={0.1}
                             onPress={this.next}>
                             {/* name="control-play" */}
-                            <SimpleLineIcons style={{ marginBottom: 10, marginRight: 15 }}
+                            <SimpleLineIcons style={{ marginBottom: 100, marginRight: 15 }}
                                 name='control-end'
                                 size={this.state.size} color="black" />
                         </TouchableHighlight>

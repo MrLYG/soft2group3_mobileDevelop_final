@@ -82,7 +82,7 @@ class Home extends React.Component {
                     <Text style={{ margin: 15, marginTop: 30 }}>专辑</Text>
                     <Text style={{ margin: 15, color: '#ccc', marginTop: 30 }}>更多></Text>
                 </View>
-                <View style={{ height: 220, flexDirection: 'row', flexWrap: "wrap", marginTop: 0, margin: 14 }}>
+                <View style={{ height:100, flexDirection: 'row', flexWrap: "wrap", marginTop: 0, margin: 0 }}>
 
                     <TouchableHighlight onPress={() => alert(1)} underlayColor='white'>
                         <View style={styles.albums}>
